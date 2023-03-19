@@ -1,0 +1,309 @@
+{
+  "mod_elements": [
+    {
+      "name": "Coccabeanblock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coccabeanblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endercraft/models/block/coccabeanblock.json",
+          "src/main/java/net/mcreator/endercraft/block/CoccabeanblockBlock.java",
+          "src/main/resources/assets/endercraft/blockstates/coccabeanblock.json",
+          "src/main/resources/assets/endercraft/models/item/coccabeanblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Processedcocoabeans",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processedcocoabeans",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endercraft/models/item/processedcocoabeans.json",
+          "src/main/java/net/mcreator/endercraft/item/ProcessedcocoabeansItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CoccainePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coccaine_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/procedures/CoccainePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coccaine",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coccaine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/item/CoccaineItem.java",
+          "src/main/resources/assets/endercraft/models/item/coccaine.json"
+        ]
+      }
+    },
+    {
+      "name": "Cokerecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cokerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endercraft/recipes/cokerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cocoablockrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoablockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endercraft/recipes/cocoablockrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prossescoca",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prossescoca",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endercraft/recipes/prossescoca.json"
+        ]
+      }
+    },
+    {
+      "name": "Weedplant",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedplant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/world/features/plants/WeedplantFeature.java",
+          "src/main/resources/assets/endercraft/blockstates/weedplant.json",
+          "src/main/java/net/mcreator/endercraft/block/WeedplantBlock.java",
+          "src/main/resources/assets/endercraft/models/block/weedplant.json",
+          "src/main/resources/assets/endercraft/models/item/weedplant.json"
+        ]
+      }
+    },
+    {
+      "name": "RawweedPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawweed_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/procedures/RawweedPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rawweed",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawweed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/item/RawweedItem.java",
+          "src/main/resources/assets/endercraft/models/item/rawweed.json"
+        ]
+      }
+    },
+    {
+      "name": "EightballItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightball_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/procedures/EightballItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eightball",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/item/EightballItem.java",
+          "src/main/resources/assets/endercraft/models/item/eightball.json"
+        ]
+      }
+    },
+    {
+      "name": "Raweeedresp",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raweeedresp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endercraft/recipes/raweeedresp.json"
+        ]
+      }
+    },
+    {
+      "name": "CookedweedPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedweed_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endercraft/procedures/CookedweedPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cookedweed",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedweed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endercraft/models/item/cookedweed.json",
+          "src/main/java/net/mcreator/endercraft/item/CookedweedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckyEight",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_eight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endercraft/advancements/lucky_eight.json"
+        ]
+      }
+    },
+    {
+      "name": "Endercraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endercraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheCanyon",
+      "type": "dimension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_canyon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endercraft/dimension_type/the_canyon.json",
+          "src/main/resources/data/endercraft/dimension/the_canyon.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.endercraft.processedcocoabeans": "Processed Cocoa Beans",
+      "block.endercraft.weedplant": "Cannabis",
+      "item.endercraft.coccaine": "Coccaine",
+      "item.endercraft.eightball": "Lucky 8-ball",
+      "advancements.lucky_eight.title": "Lucky 38",
+      "itemGroup.endercraft.endercraft": "Endercraft",
+      "block.endercraft.coccabeanblock": "Cocoa Bean Block",
+      "advancements.lucky_eight.descr": "Found a magical little ball...",
+      "item.endercraft.cookedweed": "Cooked Weed",
+      "item.endercraft.rawweed": "Raw Weed"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "endercraft",
+    "modName": "Endercraft",
+    "version": "1.0.0",
+    "author": "mrtes, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.endercraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
