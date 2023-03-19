@@ -1,2 +1,4 @@
 # EnderPack
-EnderPack Is A Minecraft Texture Pack Themed Around Me (\_EnderAlex_)
+EnderPack is a Minecraft mod based around a community of ideas, basically you suggest and I create
+
+NOTES: Feel free to modify the code however you want, just don't steal the mod
